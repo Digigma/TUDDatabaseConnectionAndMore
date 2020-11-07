@@ -27,7 +27,7 @@ public class PropertiesFileEx9 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader;
 		try {
-			reader = new BufferedReader(new FileReader(".\\src\\week4\\bn026.properties"));
+			reader = new BufferedReader(new FileReader(".\\src\\yourPackageFolder\\bn026.properties"));
 			
 			Properties bn026prop = new Properties();
 		
