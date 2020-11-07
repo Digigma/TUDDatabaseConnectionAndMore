@@ -19,7 +19,7 @@ public class EstablishConnectionEx3 {
 	public static void main(String[] args) {
 		String url = "jdbc:mysql://localhost:3306/bn026";
 		String user = "root";
-		String password = "My5q1J3152@v@m";
+		String password = "YourPassword";
 		
 		try(Connection conn = DriverManager.getConnection(url, user, password)) {
 			System.out.println("Connected successfully!");
