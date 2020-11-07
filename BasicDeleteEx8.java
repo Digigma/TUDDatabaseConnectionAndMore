@@ -22,7 +22,7 @@ public class BasicDeleteEx8 {
 	public static void main(String[] args) {
 		String url = "jdbc:mysql://localhost:3306/bn026";
 		String user = "root";
-		String password = "My5q1J3152@v@m";
+		String password = "YourPassword";
 		String sqlQuery = "SELECT * FROM lecturer";
 		String sqlQuery1 = "SELECT * FROM lecturer WHERE subjectTaught NOT IN ('webDev', 'db', 'softDev3')";
 		String sqlQuery2 = "SELECT * FROM lecturer";
